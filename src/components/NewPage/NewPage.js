@@ -16,7 +16,7 @@ export default function NewPage() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("http://intern-2022.arpify.com/init", {
+      let res = await fetch("http://intern-2022.arpify.com/form", {
         method: "POST",
         headers: {
           "Content-Type": "multipart/form-data;",
