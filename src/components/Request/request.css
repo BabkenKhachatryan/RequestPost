@@ -1,0 +1,17 @@
+table,td{
+    width: 500px;
+    border: 1px solid ;
+    font-size: 25px;
+}
+.user{
+    background-color: darkorchid;
+    color: white;
+}
+button{
+    margin-top: 25px;
+    width: 200px;
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+}
